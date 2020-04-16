@@ -2,11 +2,11 @@ function init(){
 
 var input = document.getElementById('entryinput');
 var button = document.getElementById('entrybutton');
-var name = "Greg Eure";
+var name = document.getElementsByClassName('center')[1];
 var output = document.getElementById('textoutput');
 
 function myAlertFunction(){
-	alert(name + ': ' + input.value);
+	alert(name.textContent + ': ' + input.value);
 }
 
 function myOutputFunction(){
